@@ -46,8 +46,6 @@ pickup-api-security-Automation/
 | **REST Assured** | HTTP request execution and response assertions |
 | **TestNG** | Test execution, grouping, and parallel runs |
 | **Maven** | Dependency management and build lifecycle |
-| **Allure Reports** | Rich test reporting |
-| **dotenv / config.properties** | Environment-based configuration management |
 
 ---
 
@@ -215,9 +213,3 @@ Unauthorized use of these scripts against systems you do not own or have explici
 
 **Mazen Tarek**
 - GitHub: [@MazenTarek20](https://github.com/MazenTarek20)
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
