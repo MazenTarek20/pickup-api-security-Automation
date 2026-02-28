@@ -75,7 +75,6 @@ api.key=your_api_key_here
 env=staging
 ```
 
-> ⚠️ **Important:** Add `config.properties` to `.gitignore`. Never commit credentials to version control.
 
 ### Install Dependencies
 
@@ -191,25 +190,3 @@ public void shouldReturn401_WhenTokenIsExpired() {
 4. **Responsible disclosure** — any discovered vulnerabilities must be reported internally before being committed or published.
 
 ---
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feat/add-idor-tests`
-3. Write tests following the existing class and method naming conventions
-4. Ensure all tests pass: `mvn test`
-5. Open a pull request with a clear description of the security scenario covered
-
----
-
-## ⚠️ Disclaimer
-
-This project is intended **solely for authorized security testing** of the Pickup platform in controlled, non-production environments.
-Unauthorized use of these scripts against systems you do not own or have explicit permission to test is illegal and unethical.
-
----
-
-## 👤 Author
-
-**Mazen Tarek**
-- GitHub: [@MazenTarek20](https://github.com/MazenTarek20)
